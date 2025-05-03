@@ -1,0 +1,171 @@
+# LED DRIVER PACKAGE
+#
+# ESPHome package for the LED driver board.
+#
+# Include the contents of this file into your device configuration YAML
+# file as a package like this (recommended).  Update the I2C bus ID,
+# I2C address, and other parameters for your usage.
+#
+# packages:
+#   led_drivers:
+#     substitutions:
+#       # Adjust the white point to produce a warmer white with less blue
+#       # Reduce overall power of RGB to avoid excess heat production
+#       spot_red_max_power: 25%
+#       spot_green_max_power: 25%
+#       spot_blue_max_power: 6.5%
+#       spot_white_max_power: 100%
+#       strip_red_max_power: 25%
+#       strip_green_max_power: 25%
+#       strip_blue_max_power: 6.5%
+#       strip_white_max_power: 100%
+#   <<: !include
+#     file: common/led_driver.yaml
+#     vars:
+#       i2c_id: i2c_main
+#       address: 0x42
+#       light_1_name: 'Hall Front'
+#       light_1_type: spot
+#       light_2_name: 'Hall Rear'
+#       light_2_type: spot
+#       light_3_name: 'Entry'
+#       light_3_type: spot
+#       light_4_name: 'Galley'
+#       light_4_type: strip
+#   <<: !include
+#     file: common/led_driver.yaml
+#     vars:
+#       i2c_id: i2c_main
+#       address: 0x44
+#       light_1_name: 'Bedroom Front Right'
+#       light_1_type: spot
+#       light_2_name: 'Bedroom Rear Right'
+#       light_2_type: spot
+#       light_3_name: 'Bedroom Rear Left'
+#       light_3_type: spot
+#       light_4_name: 'Bedroom Front Left'
+#       light_4_type: spot
+led_driver_${address}:
+  pca9685:
+    - id: pca9685_${address}
+      i2c_id: ${i2c_id}
+      address: ${address}
+      frequency: 400
+  output:
+    - platform: pca9685
+      id: light_${address}_1_r
+      pca9685_id: pca9685_${address}
+      channel: 0
+      max_power: ${${light_1_type}_red_max_power}
+    - platform: pca9685
+      id: light_${address}_1_g
+      pca9685_id: pca9685_${address}
+      channel: 1
+      max_power: ${${light_1_type}_green_max_power}
+    - platform: pca9685
+      id: light_${address}_1_b
+      pca9685_id: pca9685_${address}
+      channel: 2
+      max_power: ${${light_1_type}_blue_max_power}
+    - platform: pca9685
+      id: light_${address}_1_w
+      pca9685_id: pca9685_${address}
+      channel: 3
+      max_power: ${${light_1_type}_white_max_power}
+    - platform: pca9685
+      id: light_${address}_2_r
+      pca9685_id: pca9685_${address}
+      channel: 4
+      max_power: ${${light_2_type}_red_max_power}
+    - platform: pca9685
+      id: light_${address}_2_g
+      pca9685_id: pca9685_${address}
+      channel: 5
+      max_power: ${${light_2_type}_green_max_power}
+    - platform: pca9685
+      id: light_${address}_2_b
+      pca9685_id: pca9685_${address}
+      channel: 6
+      max_power: ${${light_2_type}_blue_max_power}
+    - platform: pca9685
+      id: light_${address}_2_w
+      pca9685_id: pca9685_${address}
+      channel: 7
+      max_power: ${${light_2_type}_white_max_power}
+    - platform: pca9685
+      id: light_${address}_3_r
+      pca9685_id: pca9685_${address}
+      channel: 8
+      max_power: ${${light_3_type}_red_max_power}
+    - platform: pca9685
+      id: light_${address}_3_g
+      pca9685_id: pca9685_${address}
+      channel: 9
+      max_power: ${${light_3_type}_green_max_power}
+    - platform: pca9685
+      id: light_${address}_3_b
+      pca9685_id: pca9685_${address}
+      channel: 10
+      max_power: ${${light_3_type}_blue_max_power}
+    - platform: pca9685
+      id: light_${address}_3_w
+      pca9685_id: pca9685_${address}
+      channel: 11
+      max_power: ${${light_3_type}_white_max_power}
+    - platform: pca9685
+      id: light_${address}_4_r
+      pca9685_id: pca9685_${address}
+      channel: 12
+      max_power: ${${light_4_type}_red_max_power}
+    - platform: pca9685
+      id: light_${address}_4_g
+      pca9685_id: pca9685_${address}
+      channel: 13
+      max_power: ${${light_4_type}_green_max_power}
+    - platform: pca9685
+      id: light_${address}_4_b
+      pca9685_id: pca9685_${address}
+      channel: 14
+      max_power: ${${light_4_type}_blue_max_power}
+    - platform: pca9685
+      id: light_${address}_4_w
+      pca9685_id: pca9685_${address}
+      channel: 15
+      max_power: ${${light_4_type}_white_max_power}
+  light:
+    - platform: rgbw
+      id: light_${address}_1
+      name: ${light_1_name}
+      red: light_${address}_1_r
+      green: light_${address}_1_g
+      blue: light_${address}_1_b
+      white: light_${address}_1_w
+      restore_mode: ALWAYS_OFF
+      default_transition_length: 0.5s
+    - platform: rgbw
+      id: light_${address}_2
+      name: ${light_2_name}
+      red: light_${address}_2_r
+      green: light_${address}_2_g
+      blue: light_${address}_2_b
+      white: light_${address}_2_w
+      restore_mode: ALWAYS_OFF
+      default_transition_length: 0.5s
+    - platform: rgbw
+      id: light_${address}_3
+      name: ${light_3_name}
+      red: light_${address}_3_r
+      green: light_${address}_3_g
+      blue: light_${address}_3_b
+      white: light_${address}_3_w
+      restore_mode: ALWAYS_OFF
+      default_transition_length: 0.5s
+    - platform: rgbw
+      id: light_${address}_4
+      name: ${light_4_name}
+      red: light_${address}_4_r
+      green: light_${address}_4_g
+      blue: light_${address}_4_b
+      white: light_${address}_4_w
+      restore_mode: ALWAYS_OFF
+      default_transition_length: 0.5s
