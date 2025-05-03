@@ -1,0 +1,3093 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f7f4714a-4f18-49a1-a14a-a9b7a2bc4c02")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual NMOS transistor, 8 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SO* SOIC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_NMOS_S1G1S2G2D2D2D1D1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_Dual_NMOS_S1G1S2G2D2D2D1D1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_NMOS_S1G1S2G2D2D2D1D1_2_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 111.76 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05949b09-b4bf-46fc-bf81-51c9f8bfd119")
+	)
+	(junction
+		(at 111.76 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a516ea3-f841-4689-9340-1028aa43b3a7")
+	)
+	(junction
+		(at 53.34 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6670dcbb-0181-4947-b634-c4af498b03fc")
+	)
+	(junction
+		(at 53.34 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "704212fa-58a0-4d9b-93ae-95b98faf970a")
+	)
+	(junction
+		(at 53.34 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b34ea7d-fb6b-4376-a296-ead2d6261e0e")
+	)
+	(junction
+		(at 111.76 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81d91417-4e5a-407b-ba99-553e6d28e126")
+	)
+	(junction
+		(at 53.34 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85f37d23-f03f-42c1-a4b0-d7d20b7436ae")
+	)
+	(junction
+		(at 111.76 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1936176-6a7f-4c15-9cb5-3eac8b9ca243")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 111.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01823d51-154d-424e-a64c-e121c0e73c69")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 53.34 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064cc083-55bd-4d09-b8f0-ed9af198181b")
+	)
+	(wire
+		(pts
+			(xy 50.8 121.92) (xy 53.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0daef03a-c5df-4c2c-9314-3defb04df86f")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 109.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10087529-b8bd-4fd7-af8b-12fce24a512c")
+	)
+	(wire
+		(pts
+			(xy 50.8 27.94) (xy 53.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bdd24c-b2af-419e-8944-cc91ec5c1157")
+	)
+	(wire
+		(pts
+			(xy 53.34 68.58) (xy 53.34 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce92581-b411-4702-9cbe-bfa8c88013c5")
+	)
+	(wire
+		(pts
+			(xy 50.8 133.35) (xy 50.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236b4165-0a46-4838-b3c5-bf065d2c1cca")
+	)
+	(wire
+		(pts
+			(xy 50.8 96.52) (xy 50.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23971472-a839-49b2-91db-53c7678976fd")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 111.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28de9ec6-97b0-441c-8bd9-9b297e12d683")
+	)
+	(wire
+		(pts
+			(xy 109.22 68.58) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bed9c86-d636-4ac5-9049-b73236ecff9e")
+	)
+	(wire
+		(pts
+			(xy 109.22 123.19) (xy 109.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ee51d4-afd7-476e-bb70-ad934d1e5722")
+	)
+	(wire
+		(pts
+			(xy 54.61 134.62) (xy 50.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3983736b-580c-476c-821b-8bc201ab6821")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 50.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad7cca4-6f0c-4e68-8952-62e9102dab78")
+	)
+	(wire
+		(pts
+			(xy 53.34 95.25) (xy 54.61 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b30c2da-61e5-4705-9f82-7132cff41823")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.85) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4290b6ea-a88d-46af-9aa3-48f378bc7d35")
+	)
+	(wire
+		(pts
+			(xy 109.22 121.92) (xy 111.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487b5404-ab43-41fc-a9bf-67c9588ad9e6")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 111.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba910f7-403f-4798-9ff7-9714d4db52f9")
+	)
+	(wire
+		(pts
+			(xy 50.8 80.01) (xy 50.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3371f1-b08c-44e2-aeb2-7eee9b9c6db9")
+	)
+	(wire
+		(pts
+			(xy 111.76 41.91) (xy 113.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571b8541-834a-47bf-abd2-128fd3885e11")
+	)
+	(wire
+		(pts
+			(xy 53.34 68.58) (xy 54.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fea4d4-65f4-47f5-9006-541a7c7356ec")
+	)
+	(wire
+		(pts
+			(xy 109.22 30.48) (xy 111.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596cccb4-8178-4a5d-85de-404b9b7f2f1c")
+	)
+	(wire
+		(pts
+			(xy 53.34 95.25) (xy 53.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b44bb9-14aa-450c-bbd7-8cc440002912")
+	)
+	(wire
+		(pts
+			(xy 53.34 121.92) (xy 53.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626b2560-b9e6-4a4d-8aa0-0efbe304e969")
+	)
+	(wire
+		(pts
+			(xy 41.91 20.32) (xy 53.34 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6390ca52-066a-4559-a2e2-c9b76aed2f3a")
+	)
+	(wire
+		(pts
+			(xy 111.76 41.91) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f85fa6-6e33-434d-b37b-1df6737661cd")
+	)
+	(wire
+		(pts
+			(xy 54.61 54.61) (xy 50.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c73f867-31f6-4b45-b90b-d022c0016eb3")
+	)
+	(wire
+		(pts
+			(xy 50.8 123.19) (xy 50.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d820c1d-5396-4c29-8f9e-5982af2a2059")
+	)
+	(wire
+		(pts
+			(xy 38.1 101.6) (xy 43.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8a8f71-d280-4e83-97e8-34be7e8ed1a9")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f84a891-1dc1-40a3-a448-5da272c503e9")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.92) (xy 111.76 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a265fe-a328-45f8-b60d-ef1508b99160")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78dcfb56-f371-4e84-b27d-3b085a7c7d61")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 113.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bffa879-f428-45c1-9956-87f48fd932ac")
+	)
+	(wire
+		(pts
+			(xy 109.22 22.86) (xy 111.76 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3f3cc8-e4f0-4138-aad5-e4d65033a86e")
+	)
+	(wire
+		(pts
+			(xy 38.1 74.93) (xy 43.18 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee78cf0-d9a2-4495-9459-91b118d8653b")
+	)
+	(wire
+		(pts
+			(xy 54.61 81.28) (xy 50.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f51f815-5d6f-45d3-a5e6-af3c359a2bb6")
+	)
+	(wire
+		(pts
+			(xy 50.8 41.91) (xy 53.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e4f54e-5881-4d4e-8b61-464badc2300b")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842c9bea-d6ed-47aa-bd0a-5a52fdd3c821")
+	)
+	(wire
+		(pts
+			(xy 50.8 106.68) (xy 50.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a72f3b0-fe78-4681-b3d8-a4917e8cacc5")
+	)
+	(wire
+		(pts
+			(xy 109.22 53.34) (xy 109.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba26cd6-98f9-4a93-8445-a0817881ed59")
+	)
+	(wire
+		(pts
+			(xy 50.8 22.86) (xy 53.34 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f3b231-c6b3-466d-a410-55aed57f9cac")
+	)
+	(wire
+		(pts
+			(xy 109.22 95.25) (xy 111.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97280e64-3c9f-4953-9b45-e9cbba46058f")
+	)
+	(wire
+		(pts
+			(xy 109.22 80.01) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04a0599-801c-40dd-a86d-de78712eafa4")
+	)
+	(wire
+		(pts
+			(xy 96.52 128.27) (xy 101.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a317a0d6-29bf-41a9-982d-167f71bd04d8")
+	)
+	(wire
+		(pts
+			(xy 109.22 133.35) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ff29db-62bc-4246-b201-e1591837036b")
+	)
+	(wire
+		(pts
+			(xy 50.8 30.48) (xy 53.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c1c711-734c-460b-b497-9287b7b91ab6")
+	)
+	(wire
+		(pts
+			(xy 113.03 134.62) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada631a2-3340-41b4-af3b-80ea8ef65ad2")
+	)
+	(wire
+		(pts
+			(xy 113.03 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25d61f5-99bd-453d-838e-5944440b4e0b")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 109.22 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59c5152-3d88-4d5e-82c5-8e6beda310e1")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.18) (xy 50.8 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc8ba9b-3e21-4c89-9048-14580e0a92c6")
+	)
+	(wire
+		(pts
+			(xy 96.52 48.26) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cb4182-6e01-4e18-9713-42166f17aa1b")
+	)
+	(wire
+		(pts
+			(xy 100.33 20.32) (xy 111.76 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6adbf41-cc28-48e4-978d-2e4cf3fbf515")
+	)
+	(wire
+		(pts
+			(xy 113.03 54.61) (xy 109.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70e1196-8c0c-4148-ba38-f181253b0e82")
+	)
+	(wire
+		(pts
+			(xy 109.22 106.68) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3b86ac-1998-489f-8329-ea76caf16d05")
+	)
+	(wire
+		(pts
+			(xy 53.34 121.92) (xy 54.61 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca984310-74f1-495d-b42e-db5a471a6f9b")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 53.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5095e4-d107-4ce3-9821-ec7b7133b315")
+	)
+	(wire
+		(pts
+			(xy 54.61 107.95) (xy 50.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd64dca-a8db-4dc5-8b07-df6a1007fe63")
+	)
+	(wire
+		(pts
+			(xy 50.8 68.58) (xy 53.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd35a7e-d03c-48c4-b71c-58e19a3713d8")
+	)
+	(wire
+		(pts
+			(xy 50.8 95.25) (xy 53.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5681259-fbe1-4117-a505-75e3ee53b6d8")
+	)
+	(wire
+		(pts
+			(xy 109.22 27.94) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99ebd0a-aeaa-4127-a203-c2aa4db9e9cb")
+	)
+	(wire
+		(pts
+			(xy 38.1 128.27) (xy 43.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9feac8c-c20b-4b1f-b784-9a4bfd73b888")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24c8ad5-6411-4db8-afe6-405d6a95834f")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 54.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e594eec9-5f6b-41f4-9894-c39226fae315")
+	)
+	(wire
+		(pts
+			(xy 96.52 74.93) (xy 101.6 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab56386-1e9c-494b-ba59-a0f412d57b8a")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 43.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebca859f-808e-4a83-9f86-7e581a8a8b32")
+	)
+	(wire
+		(pts
+			(xy 109.22 41.91) (xy 111.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee05fbff-2f91-432f-aa8a-2f53c8c93a12")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.92) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c076d1-5278-4f06-8433-05d9e1fa545e")
+	)
+	(label "LIGHT_G2"
+		(at 113.03 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "080f6c5a-5784-49e0-8481-db3f7e4cb51e")
+	)
+	(label "LIGHT_R2"
+		(at 109.22 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15b08472-661e-4495-a5e2-1741b707215a")
+	)
+	(label "LIGHT_R2"
+		(at 113.03 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1791b61c-7b52-466a-9f3c-061dac3a8f67")
+	)
+	(label "LIGHT_G2"
+		(at 109.22 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53327306-345b-4e8d-a64e-08fb2b648d35")
+	)
+	(label "LIGHT_B1"
+		(at 54.61 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bd6f580-98b3-41e2-8b06-98e4fcbf12fa")
+	)
+	(label "LIGHT_R1"
+		(at 50.8 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c9da9f3-1298-4b83-acc9-3bed675ec5a6")
+	)
+	(label "LIGHT_W1"
+		(at 54.61 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d33b738-c214-4911-b5f8-7ae201df20c1")
+	)
+	(label "LIGHT_G1"
+		(at 54.61 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a58e73c-a037-4a19-8caf-a5c1f30ff948")
+	)
+	(label "LIGHT_B2"
+		(at 109.22 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92fc4cea-b498-4d33-8805-757e1a5eaa1b")
+	)
+	(label "LIGHT_W1"
+		(at 50.8 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ad868c6-a633-4804-a6c2-4e3d1f171de9")
+	)
+	(label "LIGHT_W2"
+		(at 109.22 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fccc488-f2d4-4ea4-a111-45619e15c165")
+	)
+	(label "LIGHT_R1"
+		(at 54.61 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a05ad898-0fe5-4147-9318-30ec01d8c584")
+	)
+	(label "LIGHT_W2"
+		(at 113.03 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0ed4b2d-385b-45be-9487-7028837a3085")
+	)
+	(label "LIGHT_B2"
+		(at 113.03 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4d37360-108a-4e3a-8fe7-5e637f2d1891")
+	)
+	(label "LIGHT_B1"
+		(at 50.8 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e76017de-3984-4bd1-ac6d-e8a7a2667e37")
+	)
+	(label "LIGHT_G1"
+		(at 50.8 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa9962d4-9a2d-4ef0-9cca-58b0a6340234")
+	)
+	(global_label "LIGHT_GND"
+		(shape input)
+		(at 113.03 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3488196f-ad5f-46cf-a6a2-f5aa3f77685d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.0543 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_GND"
+		(shape input)
+		(at 113.03 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7953a761-a412-4355-855f-eb9b1dd79766")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.0543 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_12V"
+		(shape input)
+		(at 100.33 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84144e72-ee08-4d71-a151-ca6f3a121181")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.6686 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_12V"
+		(shape input)
+		(at 41.91 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f169038-b292-4cca-af3a-77c582099907")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.2486 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_GND"
+		(shape input)
+		(at 54.61 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bea630f7-1e88-48e8-bca9-4ea4521cd5e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.6343 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_GND"
+		(shape input)
+		(at 113.03 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf909d63-8713-4203-9791-36514c7ce8f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.0543 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_GND"
+		(shape input)
+		(at 54.61 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cae00f4c-3ff6-46c7-bdd7-ecee816d6fda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.6343 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_GND"
+		(shape input)
+		(at 113.03 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cda5553e-a688-4c5f-bd63-701952b0f87b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.0543 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_GND"
+		(shape input)
+		(at 54.61 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e632fa20-59b2-4710-81a9-3de60b26e0ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.6343 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_GND"
+		(shape input)
+		(at 54.61 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb30a935-9e25-4dbc-a80e-ab38c0a4d766")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.6343 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "R1_PIN"
+		(shape input)
+		(at 38.1 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "063c77ab-00de-457c-b14f-910f0bfb923e")
+	)
+	(hierarchical_label "W1_PIN"
+		(shape input)
+		(at 38.1 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13144fd3-3e10-45f1-b913-c944b825cb65")
+	)
+	(hierarchical_label "W2_PIN"
+		(shape input)
+		(at 96.52 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15182e72-a180-4bea-89e1-bcbe13b6142a")
+	)
+	(hierarchical_label "B1_PIN"
+		(shape input)
+		(at 38.1 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32f6e240-528c-4879-b5bf-e1f9f4be63e2")
+	)
+	(hierarchical_label "B2_PIN"
+		(shape input)
+		(at 96.52 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ad4626f-cf55-4e14-9837-cbe27b1f3508")
+	)
+	(hierarchical_label "G2_PIN"
+		(shape input)
+		(at 96.52 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7dc5216d-2db1-4fef-ac83-aa3964ae7a0f")
+	)
+	(hierarchical_label "R2_PIN"
+		(shape input)
+		(at 96.52 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85a4c09a-1a0a-4df0-9178-47c7f17d1437")
+	)
+	(hierarchical_label "G1_PIN"
+		(shape input)
+		(at 38.1 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89a49c93-7087-4394-8d6c-367acff98661")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 109.22 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f0ffa4-35b3-47a3-85f8-f79fd8d77916")
+		(property "Netclass" "Power-3A"
+			(at 109.9185 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 50.8 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "224bc553-5e13-4ba4-980f-30d20aeed500")
+		(property "Netclass" "Power-3A"
+			(at 51.4985 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 109.22 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3be6a06e-d35a-4b1b-8d6f-ae105f4f38f2")
+		(property "Netclass" "Power-3A"
+			(at 109.9185 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 50.8 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47dd889e-dc65-4b68-a82a-06ad60de33eb")
+		(property "Netclass" "Power-3A"
+			(at 51.4985 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 109.22 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8087674a-604b-488b-96ac-fcf32c1a915b")
+		(property "Netclass" "Power-3A"
+			(at 109.9185 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 50.8 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93183b9f-b8f2-4764-b35e-c4e140f6ccb0")
+		(property "Netclass" "Power-3A"
+			(at 51.4985 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 50.8 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9323327b-88b4-45dc-b888-9c83aa978349")
+		(property "Netclass" "Power-3A"
+			(at 51.4985 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 109.22 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4052dbe-3cd3-4862-8850-350588e30d16")
+		(property "Netclass" "Power-3A"
+			(at 109.9185 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 106.68 74.93 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04e8a059-9694-464c-8828-abe48c436fcc")
+		(property "Reference" "Q202"
+			(at 112.395 73.7178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN2041LSD"
+			(at 112.395 76.1421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMN2041LSD-13:SOIC127P600X175-8N"
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0da7acc5-7d73-4eeb-a20d-c5eaf4a54116")
+		)
+		(pin "3"
+			(uuid "7d0aeb89-6482-45b9-bcd2-83ee98e7f911")
+		)
+		(pin "4"
+			(uuid "cb1412ca-ab48-457e-972d-20d75fe56b95")
+		)
+		(pin "5"
+			(uuid "e1bc102a-be70-4246-b975-44c92884b0c3")
+		)
+		(pin "6"
+			(uuid "4d442665-7336-4091-a4bb-d31c95a99bbf")
+		)
+		(pin "7"
+			(uuid "065a0037-4825-472b-b1d7-61e7e1f74485")
+		)
+		(pin "2"
+			(uuid "e7452b8e-612c-4955-bc1f-898a167fcd7e")
+		)
+		(pin "1"
+			(uuid "d110bdf2-cf55-4454-9680-8e0c231219df")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "Q202")
+					(unit 2)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "Q302")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 48.26 128.27 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a309815-3593-43fe-8776-574caca4726e")
+		(property "Reference" "Q203"
+			(at 53.975 127.0578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN2041LSD"
+			(at 53.975 129.4821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMN2041LSD-13:SOIC127P600X175-8N"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0da7acc5-7d73-4eeb-a20d-c5eaf4a54117")
+		)
+		(pin "3"
+			(uuid "9594f04b-20b0-4c17-83d4-1c735f56190a")
+		)
+		(pin "4"
+			(uuid "5bb8959f-2754-42b1-ada6-0a7762735fce")
+		)
+		(pin "5"
+			(uuid "0f4c75cf-05b9-420e-955d-519790e5683e")
+		)
+		(pin "6"
+			(uuid "5b82d527-0476-49c1-bc65-3df990a98dd7")
+		)
+		(pin "7"
+			(uuid "065a0037-4825-472b-b1d7-61e7e1f74486")
+		)
+		(pin "2"
+			(uuid "e7452b8e-612c-4955-bc1f-898a167fcd7f")
+		)
+		(pin "1"
+			(uuid "d110bdf2-cf55-4454-9680-8e0c231219e0")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "Q203")
+					(unit 2)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "Q303")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 106.68 128.27 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cc1a634-268d-4a5c-b3de-af31e018a6c8")
+		(property "Reference" "Q204"
+			(at 112.395 127.0578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN2041LSD"
+			(at 112.395 129.4821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMN2041LSD-13:SOIC127P600X175-8N"
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0da7acc5-7d73-4eeb-a20d-c5eaf4a54118")
+		)
+		(pin "3"
+			(uuid "92fbe2a8-735a-41e5-8073-c4a972339351")
+		)
+		(pin "4"
+			(uuid "adaff5e0-8170-4a88-9634-7454c045f7a7")
+		)
+		(pin "5"
+			(uuid "78fc39ea-347b-4ef7-9222-e9bbdcac3590")
+		)
+		(pin "6"
+			(uuid "515b1b0e-6a6a-4308-b823-7b4e1d11ab54")
+		)
+		(pin "7"
+			(uuid "065a0037-4825-472b-b1d7-61e7e1f74487")
+		)
+		(pin "2"
+			(uuid "e7452b8e-612c-4955-bc1f-898a167fcd80")
+		)
+		(pin "1"
+			(uuid "d110bdf2-cf55-4454-9680-8e0c231219e1")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "Q204")
+					(unit 2)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "Q304")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 48.26 74.93 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55fa3468-d198-46c1-b54e-134933c128e3")
+		(property "Reference" "Q201"
+			(at 53.975 73.7178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN2041LSD"
+			(at 53.975 76.1421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMN2041LSD-13:SOIC127P600X175-8N"
+			(at 53.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0da7acc5-7d73-4eeb-a20d-c5eaf4a54119")
+		)
+		(pin "3"
+			(uuid "1628af16-484d-4df5-873e-153c1aae6318")
+		)
+		(pin "4"
+			(uuid "d917f205-4847-49e4-b20e-cb901bf66460")
+		)
+		(pin "5"
+			(uuid "654aa699-a5bd-47e5-890a-1852f40462de")
+		)
+		(pin "6"
+			(uuid "743252f4-6e7b-43f4-a547-a5daf503a34c")
+		)
+		(pin "7"
+			(uuid "065a0037-4825-472b-b1d7-61e7e1f74488")
+		)
+		(pin "2"
+			(uuid "e7452b8e-612c-4955-bc1f-898a167fcd81")
+		)
+		(pin "1"
+			(uuid "d110bdf2-cf55-4454-9680-8e0c231219e2")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "Q201")
+					(unit 2)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "Q301")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 58.42 25.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "868b1e71-b170-4c8a-a959-f85c8de99ba4")
+		(property "Reference" "J201"
+			(at 60.452 25.3422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B5B-XH-A"
+			(at 60.452 22.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d14e17d5-ba5b-49ef-8aab-be4e690e1d9a")
+		)
+		(pin "2"
+			(uuid "6a548eb2-1d8e-458e-9244-02ed4d0f824f")
+		)
+		(pin "3"
+			(uuid "f2202680-7fbf-4bc4-9497-b14c90c65ff8")
+		)
+		(pin "4"
+			(uuid "7478015e-95dc-434e-ab5b-6ee1d5ed3d3a")
+		)
+		(pin "5"
+			(uuid "078b0475-367f-4b02-b3c3-4b4bc0f1eda1")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "J201")
+					(unit 1)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "J301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 106.68 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "923c6a47-cbdc-4652-b7b2-86194959402d")
+		(property "Reference" "Q202"
+			(at 112.395 47.0478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN2041LSD"
+			(at 112.395 49.4721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMN2041LSD-13:SOIC127P600X175-8N"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "c8699842-e720-4d66-a4a3-dd3e2f78a916")
+		)
+		(pin "3"
+			(uuid "cda78da0-e58d-4fa1-aea7-bc0640cdb6fd")
+		)
+		(pin "4"
+			(uuid "c1c7f717-b793-4bb5-863b-210d9f815655")
+		)
+		(pin "5"
+			(uuid "cfbd6784-53bf-4cac-a22f-6faf62c0ae49")
+		)
+		(pin "6"
+			(uuid "2cf18395-db2c-4f6a-a47a-d26741af6572")
+		)
+		(pin "7"
+			(uuid "e491ad44-5fec-4ac4-bd14-d9cdbcf9b19e")
+		)
+		(pin "2"
+			(uuid "c626db0b-7b2c-4ed9-b7b2-d1de98db5047")
+		)
+		(pin "1"
+			(uuid "e3bde8eb-c317-47f0-9265-e54bf95b4a68")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "Q202")
+					(unit 1)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "Q302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 48.26 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c8eed00-5ec7-4416-a7cb-9c13e527e1e5")
+		(property "Reference" "Q203"
+			(at 53.975 100.3878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN2041LSD"
+			(at 53.975 102.8121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMN2041LSD-13:SOIC127P600X175-8N"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 48.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 48.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 48.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d8fcd3e4-51cc-4f26-a659-e09875050173")
+		)
+		(pin "3"
+			(uuid "cda78da0-e58d-4fa1-aea7-bc0640cdb6fe")
+		)
+		(pin "4"
+			(uuid "c1c7f717-b793-4bb5-863b-210d9f815656")
+		)
+		(pin "5"
+			(uuid "cfbd6784-53bf-4cac-a22f-6faf62c0ae4a")
+		)
+		(pin "6"
+			(uuid "2cf18395-db2c-4f6a-a47a-d26741af6573")
+		)
+		(pin "7"
+			(uuid "6abc36e5-3db7-4721-b8f4-35470ac1af27")
+		)
+		(pin "2"
+			(uuid "f21e16ed-4b2f-4593-8bfc-4d740b99d167")
+		)
+		(pin "1"
+			(uuid "ab45674f-3e0e-4107-863a-f33d33823d1e")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "Q203")
+					(unit 1)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "Q303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 106.68 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2cfd379-90c4-4b11-9606-84fae7e28f32")
+		(property "Reference" "Q204"
+			(at 112.395 100.3878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN2041LSD"
+			(at 112.395 102.8121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMN2041LSD-13:SOIC127P600X175-8N"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "aac48b5c-6f70-48b2-8e05-7581cea33aed")
+		)
+		(pin "3"
+			(uuid "cda78da0-e58d-4fa1-aea7-bc0640cdb6ff")
+		)
+		(pin "4"
+			(uuid "c1c7f717-b793-4bb5-863b-210d9f815657")
+		)
+		(pin "5"
+			(uuid "cfbd6784-53bf-4cac-a22f-6faf62c0ae4b")
+		)
+		(pin "6"
+			(uuid "2cf18395-db2c-4f6a-a47a-d26741af6574")
+		)
+		(pin "7"
+			(uuid "658c4d4a-d36a-4e7c-8b14-311dab315c5c")
+		)
+		(pin "2"
+			(uuid "a399e8e2-1956-4ccc-878a-e0dcfba91d31")
+		)
+		(pin "1"
+			(uuid "4e25f8db-5919-4cac-b647-6ca756ee0b9c")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "Q204")
+					(unit 1)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "Q304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 116.84 25.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5094256-31d9-4170-888b-8ca38e7214a6")
+		(property "Reference" "J202"
+			(at 118.872 25.3422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B5B-XH-A"
+			(at 118.872 22.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+			(at 116.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 116.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 116.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c96cdcf-38bc-447d-9d9d-408d810e9b9f")
+		)
+		(pin "2"
+			(uuid "ec6ca2ab-d4cd-49f8-8268-5401dea42889")
+		)
+		(pin "3"
+			(uuid "cb613330-9b66-4065-a0c3-5fd83761bc00")
+		)
+		(pin "4"
+			(uuid "52e97767-e090-422c-97e6-0b9c945de062")
+		)
+		(pin "5"
+			(uuid "e05f1a93-7172-4b98-8ee4-3f4f5e9b1974")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "J202")
+					(unit 1)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "J302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 48.26 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecf5a8f7-3fd1-4cf3-b939-655239da8072")
+		(property "Reference" "Q201"
+			(at 53.975 47.0478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN2041LSD"
+			(at 53.975 49.4721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMN2041LSD-13:SOIC127P600X175-8N"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "5140a836-3f81-4997-891e-dedfbf582aa4")
+		)
+		(pin "3"
+			(uuid "cda78da0-e58d-4fa1-aea7-bc0640cdb700")
+		)
+		(pin "4"
+			(uuid "c1c7f717-b793-4bb5-863b-210d9f815658")
+		)
+		(pin "5"
+			(uuid "cfbd6784-53bf-4cac-a22f-6faf62c0ae4c")
+		)
+		(pin "6"
+			(uuid "2cf18395-db2c-4f6a-a47a-d26741af6575")
+		)
+		(pin "7"
+			(uuid "4afcda9b-2841-4150-9d7b-16fff16b6749")
+		)
+		(pin "2"
+			(uuid "82e58ea9-b209-44af-aa6a-6fae89c05c35")
+		)
+		(pin "1"
+			(uuid "e4a56e38-7750-4868-b8b7-81ffdf248453")
+		)
+		(instances
+			(project "led-driver"
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/835ea5d3-4608-4a04-bf1a-c92e99ac5404"
+					(reference "Q201")
+					(unit 1)
+				)
+				(path "/1457a8ba-2e43-4cd1-a576-07ebdca5c54b/f9e262c4-6ade-4e90-84d4-dcf1c4b86cf5"
+					(reference "Q301")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
